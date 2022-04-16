@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.Card{
+  width: 80%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.Navbar {
+  background-color: lightgreen;
+}
+
+
+

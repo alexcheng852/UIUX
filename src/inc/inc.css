@@ -1,0 +1,7 @@
+.Navbar {
+    background-color: #ff9fad;
+}
+
+.navbar-light .navbar-nav .NavLink .NavLinkProps .nav-link{
+    color: #000000;
+}
