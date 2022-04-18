@@ -12,7 +12,9 @@ function Topbar() {
                 <Navbar.Brand href="#"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
+                    <a href="/">
                     <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/503/7107186503_b10c0ad6-f190-47ac-b05a-4343eef845f2.png?cb=1649700084"/>
+                    </a>
 
                     <Nav
                         className="me-auto my-2 my-lg-0"
@@ -21,9 +23,9 @@ function Topbar() {
                     >
                         <NavDropdown title="Category" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="/product"><a>Action</a></NavDropdown.Item>
-                            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="/product1">Another action</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="./Category">
+                            <NavDropdown.Item href="/product">
                                 All Product
                             </NavDropdown.Item>
                         </NavDropdown>

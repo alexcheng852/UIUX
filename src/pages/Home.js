@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Carousel, Card} from "react-bootstrap";
 import {Link} from "react-router-dom";
+import product from "./product";
 
 function Home() {
     return (
@@ -10,12 +11,8 @@ function Home() {
         <img
             className="responsive-image gtmHomePromotionalBannersImpress swiper-lazy swiper-lazy-loaded"
             src="https://shoplineimg.com/6103db71dc89250008337040/61e2300e270f320011f877cd/1200x.webp?source_format=jpg"
-            alt="First slide"
-        />
-        <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-        </Carousel.Caption>
+            alt="First slide"/>
+
     </Carousel.Item>
     <Carousel.Item>
         <img
@@ -36,10 +33,6 @@ function Home() {
             alt="Third slide"
         />
 
-        <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-        </Carousel.Caption>
     </Carousel.Item>
 </Carousel>
 <br/><br/><br/>
@@ -53,7 +46,7 @@ function Home() {
                 <Card.Text>
                     Addiction The Eyeshadow<br/> (buy 2 get free shipping)<br/><p className="text-decoration-line-through">USD$45.80</p><p className="text-danger">USD$25.80</p>
                 </Card.Text>
-                <Link to="./Category"><Button variant="primary">Go somewhere</Button></Link>
+                <Link to="./product"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -63,7 +56,7 @@ function Home() {
                 <Card.Text>
                     Dr Ci Labo 3D Deep Botolium Enrich Lift 0.5g packet sample <p className="text-decoration-line-through">USD$3.00</p><p className="text-danger">USD$1.43</p>
                 </Card.Text>
-                <Link to="./Category"><Button variant="primary">Go somewhere</Button></Link>
+                <Link to="./product"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -73,7 +66,7 @@ function Home() {
                 <Card.Text>
                     Designing color eyes 04 AYANADESHIKO (free shipping) <p className="text-decoration-line-through">USD$143.31 </p><p className="text-danger">USD$65.92</p>
                 </Card.Text>
-                <Link to="./Category"><Button variant="primary">Go somewhere</Button></Link>
+                <Link to="./product"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -83,7 +76,7 @@ function Home() {
                 <Card.Text>
                     lasting tint control base 30ml color03 <p className="text-decoration-line-through">USD$40.13  </p><p className="text-danger">USD$32.96</p>
                 </Card.Text>
-                <Link to="./Category"><Button variant="primary">Go somewhere</Button></Link>
+                <Link to="./product"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -93,7 +86,7 @@ function Home() {
                 <Card.Text>
                     Clarifying Lotion 200ml (free shipping) <p className="text-decoration-line-through">USD$200.64  </p><p className="text-danger">USD$186.31</p>
                 </Card.Text>
-                <Link to="./Category"><Button variant="primary">Go somewhere</Button></Link>
+                <Link to="./product"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
 

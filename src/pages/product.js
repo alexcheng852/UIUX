@@ -3,39 +3,41 @@ import productsData from "./productsData";
 import { Link } from "react-router-dom";
 import "./pages.css"
 
-import {Card, Col, Row} from "react-bootstrap";
+
+import {Button, Card} from "react-bootstrap";
 
 const product = ({product}) => {
     return (
         <div className= "products">
+            <div className="container-fluid">
             <nav className="nav" aria-label="breadcrumb">
                 <ol className="breadcrumb bg-transparent">
                     <li className="breadcrumb-item"><a href="/">Home</a></li>
                     <li className="breadcrumb-item active">All Products</li>
                 </ol>
-            </nav>
+            </nav><br/>
+            </div>
             {productsData.map((product) => (
-            <div className="card">
+            <div className="productscard">
+
+                    <div className=" row-cols-md-5 g-5">
+                <Card style={{ width: '15rem', height:'30rem' }}>
                 <div>
                     <a href={`/products/${product.id}`}>
-                        <img className="photo1" src={product.img} />
+                        <img className="photo2" src={product.img} />
                     </a>
                 </div>
-                <div>
-                    <h3 className="product-brand" href="#">{product.brand}</h3>
-                </div>
-                <div>
-                    <h3 className="product-name" href="#">{product.name}</h3>
-                </div>
-                <div>
-                    <h4 className="product-old-price text-decoration-line-through">${product.price}</h4>
-                </div>
-                <div>
-                    <h4 className="product-new-price">${product.price}</h4>
+                    <Card body>
+                    <Card.Title>{product.brand}</Card.Title>
+                        <Card.Text>{product.name} <p className="text-decoration-line-through">{product.oldprice}</p><p className="text-danger"><h4>{product.newprice}</h4></p></Card.Text>
+                    <div>
+                        <Link to={`/products/${product.id}`}><Button variant="primary">Know More</Button></Link>
+                    </div>
+                    </Card>
+                </Card>
                 </div>
 
             </div>
-
         ))}
         </div>
     )};

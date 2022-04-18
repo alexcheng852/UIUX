@@ -44,7 +44,7 @@ function Contact() {
                 <span>
                 <Form>
                 <fieldset >
-                    <legend className= "text-left">Contact Us</legend>
+                    <legend >Contact Us</legend>
                  <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Full Name:</Form.Label>
                     <Form.Control type="email" placeholder="Enter Name" />
