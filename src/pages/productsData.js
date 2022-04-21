@@ -110,7 +110,7 @@ export default [
         description: "You'll get caught up in the crossfire!",
         img: "http://www.bobodave.com/images/jilloil.jpg",
         oldprice: "USD$30",
-        newprice: 20
+        newprice: "USD$20"
     }
 
 
