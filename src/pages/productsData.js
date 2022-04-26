@@ -5,6 +5,7 @@ export default [
         brand : "2B Alternative",
         description: "Maximize skin permeability by Nanometer Coating",
         img: "http://www.bobodave.com/images/2bforface2.jpg",
+        rating: 2,
         newprice: "USD$42.99"
     },
     {
@@ -15,6 +16,7 @@ export default [
             "Whitening and hydrating! No coloring",
         img: "http://www.bobodave.com/images/care_s03.jpg",
         oldprice: "USD$61.62 ",
+        rating: 2,
         newprice: "USD$30.81"
     },
     {
@@ -25,6 +27,7 @@ export default [
             "please write the color you would like to order in the comment box when checkout",
         img: "http://www.bobodave.com/bmz_cache/9/984975408e21c01ea42b496f6198bd6d.image.565x550.JPG",
         oldprice: "USD$64.49",
+        rating: 2,
         newprice: "USD$60.49"
     },
     {
@@ -35,6 +38,7 @@ export default [
             "age spots with precision, leaving skin looking brighter.",
         img: "http://www.bobodave.com/images/genopticsspotessencepic.jpg",
         oldprice: "USD$200.64 ",
+        rating: 2,
         newprice: "USD$164.81"
     },
     {
@@ -44,6 +48,7 @@ export default [
         description: "Eyes 11 FUKAKAEDE",
         img: "http://www.bobodave.com/bmz_cache/c/c3440e2e8a0286dadc6ca42877373945.image.527x550.JPG",
         oldprice: "USD$93.15 ",
+        rating: 2,
         newprice: "USD$71.66"
     },
     {
@@ -63,6 +68,7 @@ export default [
             "This is W/S shap which is good for skin affinity and it make you skin light , soft and flawless all day long.",
         img: "http://www.bobodave.com/images/skin79-vip-gold-super-plus-bb-cream-25g-tube_01.jpeg",
         oldprice: "USD$42.99 ",
+        rating: 2,
         newprice: "USD$37.26"
     },
     {
@@ -72,6 +78,7 @@ export default [
         description: "Designing Color Eyes 10 YUUAKANE",
         img: "http://www.bobodave.com/bmz_cache/d/d636ec93e66848b985d2f34a65403952.image.523x550.JPG",
         oldprice: "USD$93.15 ",
+        rating: 2,
         newprice: "USD$71.66"
     },
     {
@@ -81,6 +88,7 @@ export default [
         description: "You'll get caught up in the crossfire!",
         img: "http://www.bobodave.com/images/suqqudesing07.JPG",
         oldprice: "USD$97.45",
+        rating: 2,
         newprice: "USD$65.92"
     },
     {
@@ -101,6 +109,7 @@ export default [
             " ",
         img: "http://www.bobodave.com/images/an26156.jpg",
         oldprice: "USD$38.69 ",
+        rating: 2,
         newprice: "USD$32.96"
     },
     {
@@ -110,6 +119,7 @@ export default [
         description: "You'll get caught up in the crossfire!",
         img: "http://www.bobodave.com/images/jilloil.jpg",
         oldprice: "USD$30",
+        rating: 5,
         newprice: "USD$20"
     }
 

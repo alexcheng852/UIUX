@@ -2,11 +2,13 @@ import React from "react"
 import {useParams} from "react-router-dom"
 import productsData from "./productsData"
 import "./pages.css"
-import {Button, Card} from "react-bootstrap";
+import StarRatings from 'react-star-ratings';
+import {Button, Card, Form} from "react-bootstrap";
 
 function ProductDetail() {
     const {productId} = useParams()
     const thisProduct = productsData.find(prod => prod.id === productId)
+
 
     return (
         <div className="container">
@@ -25,6 +27,7 @@ function ProductDetail() {
             <h1>{thisProduct.name}</h1><br/>
                 <p className="text-decoration-line-through">{thisProduct.oldprice}</p>
                 <p className="text-danger"><h4>{thisProduct.newprice}</h4></p>
+                <StarRatings starDimension='30px' rating={thisProduct.rating} starRatedColor="blue" name='rating'/><br/><br/>
                 <p>{thisProduct.description}</p>
                 <div className="cartAdd">
                 Add to Cart :
@@ -38,9 +41,14 @@ function ProductDetail() {
                     </select><br/>
                     <input type="image" src="http://www.bobodave.com/includes/templates/orange/buttons/english/button_in_cart.gif" alt="Add to Cart" title=" Add to Cart "></input>
                 </div>
+
+
             </div>
         </div>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
         </div>
 
     )
