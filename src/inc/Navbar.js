@@ -22,12 +22,11 @@ function Topbar() {
                         navbarScroll
                     >
                         <NavDropdown title="Category" id="navbarScrollingDropdown">
+                            <NavDropdown.Item href="/product">All Product</NavDropdown.Item>
+                            <NavDropdown.Divider />
                             <NavDropdown.Item href="/product"><a>A</a></NavDropdown.Item>
                             <NavDropdown.Item href="/product1">B</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="/product">
-                                All Product
-                            </NavDropdown.Item>
+
                         </NavDropdown>
                         <Link to="/" class="nav-link active"> Home </Link>
                         <Link to="/Contact" class="nav-link active"> Contact us</Link>
