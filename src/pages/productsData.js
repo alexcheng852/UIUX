@@ -119,7 +119,7 @@ export default [
         oldprice: "USD$97.45",
         rating: 2,
         newprice: "USD$65.92",
-        username:"Vanessa Lam",
+        username:"Harley Hamilton",
         userrating: 5,
         data:"2022-04-22",
         reviewtitle: "Good"
@@ -144,7 +144,7 @@ export default [
         oldprice: "USD$38.69 ",
         rating: 2,
         newprice: "USD$32.96",
-        username:"Vanessa Lam",
+        username:"Daisy Hamilton",
         userrating: 5,
         data:"2022-04-22",
         reviewtitle: "Good"
@@ -158,7 +158,7 @@ export default [
         oldprice: "USD$30",
         rating: 5,
         newprice: "USD$20",
-        username:"Vanessa Lam",
+        username:"Fern Hamilton",
         userrating: 5,
         data:"2022-04-22",
         reviewtitle: "Good"
