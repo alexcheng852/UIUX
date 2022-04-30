@@ -8,6 +8,7 @@ import {Button, Card} from "react-bootstrap";
 
 const product = ({product}) => {
     return (
+        <div>
         <div className= "products">
             <div className="container-fluid">
             <nav className="nav" aria-label="breadcrumb">
@@ -40,6 +41,19 @@ const product = ({product}) => {
             </div>
         ))}
         </div>
+
+            <div id="productsListingListingTopLinks" className="navSplitPagesLinks forward"><a
+                href=""
+                title=" Previous Page ">[&lt;&lt;&nbsp;Prev]</a>&nbsp;&nbsp;&nbsp;
+                <strong className="current">1</strong>&nbsp;&nbsp;
+                <a href="" title=" Page 2 ">2</a>&nbsp;&nbsp;
+                <a href="" title=" Page 3 ">3</a>&nbsp;&nbsp;
+                <a href="" title=" Page 4 ">4</a>&nbsp;&nbsp;
+                <a href="" title=" Page 5 ">5</a>&nbsp;
+                <a href="" title=" Next Set of 5 Pages ">...</a>&nbsp;&nbsp;
+                <a href="" title=" Next Page ">[Next&nbsp;&gt;&gt;]</a>&nbsp;
+                </div>
+</div>
     )};
 
 

@@ -5,6 +5,7 @@ import Topbar from './inc/Navbar';
 import Home from './pages/Home';
 import Contact from "./pages/Contact";
 import product from "./pages/product";
+import News from "./pages/News";
 import Footer from "./inc/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
@@ -28,6 +29,9 @@ function App() {
               <Route path="/Contact">
                   <Contact />
               </Route>
+                  <Route path="/News">
+                      <News />
+                  </Route>
 
             </Switch>
               <Switch>

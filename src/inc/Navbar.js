@@ -22,8 +22,8 @@ function Topbar() {
                         navbarScroll
                     >
                         <NavDropdown title="Category" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="/product"><a>Action</a></NavDropdown.Item>
-                            <NavDropdown.Item href="/product1">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="/product"><a>A</a></NavDropdown.Item>
+                            <NavDropdown.Item href="/product1">B</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/product">
                                 All Product
@@ -32,7 +32,7 @@ function Topbar() {
                         <Link to="/" class="nav-link active"> Home </Link>
                         <Link to="/Contact" class="nav-link active"> Contact us</Link>
                         <Link to="/" class="nav-link active"> Forum</Link>
-                        <Link to="/" class="nav-link active"> News</Link>
+                        <Link to="/News" class="nav-link active"> News</Link>
                         <Link to="/" class="nav-link active"> Log In</Link>
                     </Nav>
                     <Form className="d-flex">

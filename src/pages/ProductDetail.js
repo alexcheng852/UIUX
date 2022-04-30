@@ -27,7 +27,7 @@ function ProductDetail() {
             <h1>{thisProduct.name}</h1><br/>
                 <p className="text-decoration-line-through">{thisProduct.oldprice}</p>
                 <p className="text-danger"><h4>{thisProduct.newprice}</h4></p>
-                <StarRatings starDimension='30px' rating={thisProduct.rating} starRatedColor="blue" name='rating'/><br/><br/>
+                <p>Avaerage rating  <StarRatings starDimension='20px' rating={thisProduct.rating} starRatedColor="blue" name='rating'/></p><br/>
                 <p>{thisProduct.description}</p>
                 <div className="cartAdd">
                 Add to Cart :
@@ -46,7 +46,6 @@ function ProductDetail() {
             </div>
         </div>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 
 
         </div>
